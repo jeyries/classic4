@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024">
+
+
+    <defs>
+         <clipPath id="icon-clip">
+            <rect x="0" y="0" width="1024" height="1024" rx="100" ry="100" />
+        </clipPath>
+
+        <ellipse id="jeton" rx="117" ry="117" stroke="black" stroke-width="26"/>
+        <use id="jeton1" href="#jeton" fill="yellow"/>
+        <use id="jeton2" href="#jeton" fill="red"/>
+        <g id="back">
+            <rect width="1024" height="1024" fill="#0343ab" />
+        </g>
+        <g id="middle">
+            <use href="#jeton1" transform="translate(512 405)"/>
+            <use href="#jeton2" transform="translate(819 205)"/>
+            <use href="#jeton2" transform="translate(819 512)"/>
+            <use href="#jeton1" transform="translate(205 819)"/>
+            <use href="#jeton2" transform="translate(512 819)"/>
+            <use href="#jeton1" transform="translate(819 819)"/>
+        </g>
+        <g id="front" fill-rule="evenodd" fill="#086ed4">
+            <path d="M 0,0 L 1024,0 1024,1024 0,1024 z
+                M  512, 512
+                m -307,-307
+                m -135, 0 a 135,135 0 0,1 270,  0 a 135,135 0 0,1 -270, 0 z
+                m 307,  0 a 135,135 0 0,1 270,  0 a 135,135 0 0,1 -270, 0 z
+                m 307,  0 a 135,135 0 0,1 270,  0 a 135,135 0 0,1 -270, 0 z
+                m -307, 0 m -307, 0 m 135, 0
+                m 0, 307
+                m -135, 0 a 135,135 0 0,1 270,  0 a 135,135 0 0,1 -270, 0 z
+                m 307,  0 a 135,135 0 0,1 270,  0 a 135,135 0 0,1 -270, 0 z
+                m 307,  0 a 135,135 0 0,1 270,  0 a 135,135 0 0,1 -270, 0 z
+                m -307, 0 m -307, 0 m 135, 0
+                m 0, 307
+                m -135, 0 a 135,135 0 0,1 270,  0 a 135,135 0 0,1 -270, 0 z
+                m 307,  0 a 135,135 0 0,1 270,  0 a 135,135 0 0,1 -270, 0 z
+                m 307,  0 a 135,135 0 0,1 270,  0 a 135,135 0 0,1 -270, 0 z"
+                />
+        </g>
+
+    </defs> 
+    
+    <g clip-path="url(#icon-clip)"> 
+        <use href="#back"/>
+        <use href="#middle"/>
+        <use href="#front"/>
+    </g>
+   
+
+</svg>

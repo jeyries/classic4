@@ -1,0 +1,16 @@
+https://developer.apple.com/design/resources/#product-bezels
+
+inkscape App_Store_Badge.svg -w 240 -o App_Store_Badge.png
+convert App_Store_Badge.png ../App_Store_Badge.webp
+
+inkscape LaunchIcon.svg -w 128 -o LaunchIcon.png
+convert LaunchIcon.png ../LaunchIcon.webp
+
+inkscape screenshot1.svg -o screenshot1.png
+convert screenshot1.png ../screenshot1.webp
+
+inkscape screenshot2.svg -o screenshot2.png
+convert screenshot2.png ../screenshot2.webp
+
+inkscape screenshot3.svg -o screenshot3.png
+convert screenshot3.png ../screenshot3.webp
