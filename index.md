@@ -4,12 +4,11 @@ title: Welcome to Classic 4
 
 ![Launch Icon](LaunchIcon.webp)
 
-Implementation of the well-known game
-usually played on a vertical board of 7 columns by 6 rows,
-where 2 players take turns in dropping counters in a column.
-the first player to get four of his counters
-in a horizontal, vertical or diagonal row, wins the game.
-if neither player has won after 42 moves, then the game is drawn.
+Classic 4 - free iPhone, iPad and Apple TV app. No advertising, no in-app purchases, no tracking.
+
+The goal of the game is very simple: line up 4 checkers vertically, horizontally, or diagonally to win. It's a fun and strategic game, which you can play for free and without advertising!
+
+This game is also known as "Connect 4", or "Four in a row" .
 
 The game engine is written in C++ and based on the [Monte Carlo Tree Search](https://en.wikipedia.org/wiki/Monte_Carlo_tree_search) algorithm.
 
